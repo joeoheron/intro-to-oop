@@ -1,3 +1,6 @@
+from client import Client
+
+
 def main():
     # ACSII Art Generated at https://patorjk.com/software/taag
     print("""
@@ -7,7 +10,11 @@ def main():
  \\___|\\___/|___/___/ |___/\\__,_|_||_|_\\_\\_|_||_\\__, | |____|_|_|_|_|_|\\__\\___\\__,_|
                                                |___/
         """)
+    print("Welcome to CUBS Banking's online services! What can we help you with today?")
     print()
+
+    client = Client()
+    client.create_user()
 
 
 if __name__ == "__main__":
