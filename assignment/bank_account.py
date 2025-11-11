@@ -1,5 +1,5 @@
 # Account Class
-class Account:
+class Bank_Account:
     def __init__(self, id, currencies):
         self.id = id
         self.currencies = currencies
