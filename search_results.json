@@ -1,0 +1,516 @@
+{
+  "props": {
+    "pageProps": {
+      "breadcrumbs": [
+        {
+          "displayValue": "Home",
+          "url": "/"
+        }
+      ],
+      "canonicalUrl": "https://www.daft.ie/property-for-sale/athlone-roscommon",
+      "dfpTargetingValues": {
+        "pageType": ["listings"],
+        "searchPageNo": ["1"],
+        "areaName": ["athlone-and-surrounds-roscommon"],
+        "adState": ["published"],
+        "distilledBrand": ["daft"],
+        "section": ["residential-for-sale"],
+        "countyName": ["Roscommon"],
+        "user_id": ["2047681"],
+        "isUserLoggedIn": ["true"]
+      },
+      "h1AdType": "for Sale",
+      "isLastSearchRedirect": false,
+      "isProd": true,
+      "listings": [
+        {
+          "listing": {
+            "id": 6251330,
+            "title": "Carrowloughan, Kiltoom, N37K5W5",
+            "seoTitle": "Carrowloughan, Kiltoom, N37K5W5",
+            "sections": ["Property", "Residential", "House", "Detached House"],
+            "saleType": ["For Sale"],
+            "featuredLevel": "PREMIUM",
+            "featuredLevelFull": "PREMIER_PARTNER_PREMIUM",
+            "sticker": "Viewing Advised",
+            "publishDate": 1760552679000,
+            "price": "€595,000",
+            "abbreviatedPrice": "€595k",
+            "numBedrooms": "4 Bed",
+            "numBathrooms": "5 Bath",
+            "propertyType": "Detached",
+            "daftShortcode": "122685395",
+            "seller": {
+              "sellerId": 12152,
+              "name": "Ollie Moore",
+              "phone": "0868595186",
+              "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImQvMy9kM2YzZmJhNzgxYWNhM2VmNzZlYjZmZDljYTllZDk4Mi5qcGcifQ==?signature=ceddcdb41f6de9f446072d9789df0fc2d0499729e96a511989a6211d7ce7fb95",
+              "profileRoundedImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicm91bmRDcm9wIjp0cnVlLCJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6MTAwLCJoZWlnaHQiOjEwMH19LCJvdXRwdXRGb3JtYXQiOiJwbmciLCJrZXkiOiJkLzMvZDNmM2ZiYTc4MWFjYTNlZjc2ZWI2ZmQ5Y2E5ZWQ5ODIuanBnIn0=?signature=1ced5dfcd8e2df8679e31a26b687d47ff631e26b259c193dec894e48633b42f4",
+              "branch": "Property Partners Moore Larkin",
+              "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNS9hLzVhYTQxNTcwYTQ4YjI1OGViYTk0OWM5ZjI0YjQxZmQxX3N0YW5kYXJkLnBuZyJ9?signature=ab1ecfed03ae3b817e4826a5f8425fb127b0fd03c45c10e05cd224356e95dd15",
+              "squareLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6ImEvNC9hNDEyNDRkNGU2ZjFmZTAwMjNhNmIzYThlNzRkMGExYi5wbmcifQ==?signature=8062af22a81fc0321a3bba66bb5108509c1b3b384984b73e5195b1f87bfcb343",
+              "backgroundColour": "#c80e2e",
+              "licenceNumber": "004330",
+              "sellerType": "UNBRANDED_AGENT",
+              "showContactForm": true,
+              "premierPartnerSeller": false,
+              "sellerAvailable": true
+            },
+            "dateOfConstruction": "2003",
+            "media": {
+              "images": [
+                {
+                  "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImIvYS9iYTYzZDljNi1lOGM3LTRiNDMtOWRlZS1kZTdiMjNkYWYyYTkuSlBFRyJ9?signature=a52358cb7bbaf00af3910bc318f90e0208479c96dc5699c1385314a1dbffbe11",
+                  "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiJiL2EvYmE2M2Q5YzYtZThjNy00YjQzLTlkZWUtZGU3YjIzZGFmMmE5LkpQRUcifQ==?signature=026d9c61b3ea31aa72ac0e377a91b6430db5228a43c89b9c74f750e44d768990"
+                },
+                {
+                  "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjIvNS8yNTYyMDVlNWM4ZjZhNmRjNTg0NWQ5MWZmMzhlMjMyZi5qcGcifQ==?signature=d9aae939ecacfdb320cc1deb54373b866c7830374826c9f8177bec3f9bb0db3d",
+                  "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiIyLzUvMjU2MjA1ZTVjOGY2YTZkYzU4NDVkOTFmZjM4ZTIzMmYuanBnIn0=?signature=6038a8bd71745949138dbb952b75e66f0e9c273334ee542222fbc6dcca249afd"
+                }
+              ],
+              "totalImages": 48,
+              "hasVideo": false,
+              "hasVirtualTour": false,
+              "hasBrochure": false
+            },
+            "ber": {
+              "rating": "B3",
+              "code": "116508193",
+              "epi": "147.04 kWh/m2/yr"
+            },
+            "platform": "FEEDS",
+            "floorArea": {
+              "unit": "METRES_SQUARED",
+              "value": "255"
+            },
+            "propertySize": "255 m²",
+            "point": {
+              "type": "Point",
+              "coordinates": [-8.057237, 53.474995]
+            },
+            "seoFriendlyPath": "/for-sale/detached-house-carrowloughan-kiltoom-athlone-co-roscommon/6251330",
+            "pageBranding": {
+              "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNS9hLzVhYTQxNTcwYTQ4YjI1OGViYTk0OWM5ZjI0YjQxZmQxX3N0YW5kYXJkLnBuZyJ9?signature=ab1ecfed03ae3b817e4826a5f8425fb127b0fd03c45c10e05cd224356e95dd15",
+              "squareLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6ImEvNC9hNDEyNDRkNGU2ZjFmZTAwMjNhNmIzYThlNzRkMGExYi5wbmcifQ==?signature=8062af22a81fc0321a3bba66bb5108509c1b3b384984b73e5195b1f87bfcb343",
+              "backgroundColour": "#c80e2e",
+              "squareLogos": [
+                "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6ImEvNC9hNDEyNDRkNGU2ZjFmZTAwMjNhNmIzYThlNzRkMGExYi5wbmcifQ==?signature=8062af22a81fc0321a3bba66bb5108509c1b3b384984b73e5195b1f87bfcb343"
+              ],
+              "rectangleLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNS9hLzVhYTQxNTcwYTQ4YjI1OGViYTk0OWM5ZjI0YjQxZmQxX3N0YW5kYXJkLnBuZyJ9?signature=ab1ecfed03ae3b817e4826a5f8425fb127b0fd03c45c10e05cd224356e95dd15"
+            },
+            "category": "Buy",
+            "state": "PUBLISHED",
+            "premierPartner": true
+          },
+          "savedAd": false,
+          "imageRestricted": false
+        }
+      ],
+      "locationList": [
+        {
+          "id": "1908",
+          "displayName": "Abbey, Galway",
+          "displayValue": "abbey-galway"
+        }
+      ],
+      "paging": {
+        "totalPages": 7,
+        "currentPage": 1,
+        "nextFrom": 20,
+        "previousFrom": 0,
+        "displayingFrom": 1,
+        "displayingTo": 20,
+        "totalResults": 136,
+        "pageSize": 20
+      },
+      "query": {
+        "adState": "published",
+        "locationPath": "athlone-and-surrounds-roscommon"
+      },
+      "queryFilters": [],
+      "savedSearch": false,
+      "searchFiltersHideByDefault": [
+        {
+          "id": 103,
+          "name": "propertyType",
+          "displayName": "Type",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "filters",
+          "filterType": {
+            "id": 5,
+            "name": "ListMultiSelect"
+          },
+          "values": [
+            {
+              "valueType": "FilterStringValue",
+              "displayName": "Any Property",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "name": "ber",
+          "displayName": "BER Rating",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "ranges",
+          "filterType": {
+            "id": 2,
+            "name": "DropDownRange"
+          },
+          "values": [
+            {
+              "valueType": "FilterRangeDropDownValue",
+              "from": [
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "Any",
+                  "value": ""
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "A1",
+                  "value": "0"
+                }
+              ],
+              "to": [
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "Any",
+                  "value": ""
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "A1",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "name": "viewingTimes",
+          "displayName": "Open Viewings From",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "ranges",
+          "filterType": {
+            "id": 6,
+            "name": "DatePickerRange"
+          },
+          "values": [
+            {
+              "valueType": "FilterRangeDatePickerValue",
+              "value": "viewingTimes",
+              "type": "MIN"
+            }
+          ]
+        },
+        {
+          "id": 111,
+          "name": "saleType",
+          "displayName": "Sale Type",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "filters",
+          "filterType": {
+            "id": 1,
+            "name": "ListSingleSelect"
+          },
+          "values": [
+            {
+              "valueType": "FilterStringValue",
+              "displayName": "All Sales",
+              "value": ""
+            },
+            {
+              "valueType": "FilterStringValue",
+              "displayName": "Auctions Only",
+              "value": "auction"
+            }
+          ]
+        },
+        {
+          "id": 112,
+          "name": "mediaTypes",
+          "displayName": "Media Type",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "filters",
+          "filterType": {
+            "id": 5,
+            "name": "ListMultiSelect"
+          },
+          "values": [
+            {
+              "valueType": "FilterStringValue",
+              "displayName": "Any Media",
+              "value": ""
+            },
+            {
+              "valueType": "FilterStringValue",
+              "displayName": "Ads with video",
+              "value": "video"
+            },
+            {
+              "valueType": "FilterStringValue",
+              "displayName": "Ads with virtual tours",
+              "value": "virtual-tour"
+            }
+          ]
+        },
+        {
+          "id": 110,
+          "name": "terms",
+          "displayName": "Keyword / Address Search",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "terms",
+          "filterType": {
+            "id": 7,
+            "name": "TextInput"
+          },
+          "values": [],
+          "displayHint": "e.g. garage or \"period property\"",
+          "maxLength": 50
+        },
+        {
+          "id": 114,
+          "name": "firstPublishDate",
+          "displayName": "Added In Last",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "ranges",
+          "filterType": {
+            "id": 4,
+            "name": "SingleSelectRange"
+          },
+          "values": [
+            {
+              "valueType": "FilterRangeSingleSelectValue",
+              "displayName": "At any time",
+              "value": "",
+              "type": "MIN"
+            },
+            {
+              "valueType": "FilterRangeSingleSelectValue",
+              "displayName": "24 Hours",
+              "value": "now-1d/d",
+              "type": "MIN"
+            }
+          ]
+        }
+      ],
+      "searchFiltersShowByDefault": [
+        {
+          "id": 101,
+          "name": "location",
+          "displayName": "Location",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "geoFilter",
+          "filterType": {
+            "id": 3,
+            "name": "LocationInputBox"
+          },
+          "values": [
+            {
+              "valueType": "FilterAreaValue",
+              "initialLoad": true,
+              "url": "https://location.dsch.ie/v1/autocomplete"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "salePrice",
+          "displayName": "Price",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "ranges",
+          "filterType": {
+            "id": 2,
+            "name": "DropDownRange"
+          },
+          "values": [
+            {
+              "valueType": "FilterRangeDropDownValue",
+              "from": [
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "Min",
+                  "value": ""
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "€25k",
+                  "value": "25000"
+                }
+              ],
+              "to": [
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "Max",
+                  "value": ""
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "€25k",
+                  "value": "25000"
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "€50k",
+                  "value": "50000"
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "€75k",
+                  "value": "75000"
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "€100k",
+                  "value": "100000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "name": "numBeds",
+          "displayName": "Beds",
+          "variant": "DAFT_DEFAULT",
+          "searchQueryGroup": "ranges",
+          "filterType": {
+            "id": 2,
+            "name": "DropDownRange"
+          },
+          "values": [
+            {
+              "valueType": "FilterRangeDropDownValue",
+              "from": [
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "Min",
+                  "value": ""
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "0",
+                  "value": "0"
+                }
+              ],
+              "to": [
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "Max",
+                  "value": ""
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "0",
+                  "value": "0"
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "1",
+                  "value": "1"
+                },
+                {
+                  "valueType": "FilterStringValue",
+                  "displayName": "2",
+                  "value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "searchQuery": {
+        "section": "residential-for-sale",
+        "filters": [
+          {
+            "values": ["published"],
+            "name": "adState"
+          }
+        ],
+        "andFilters": [],
+        "ranges": [],
+        "paging": {
+          "from": "0",
+          "pageSize": "20"
+        },
+        "geoFilter": {
+          "storedShapeIds": ["4059"],
+          "geoSearchType": "STORED_SHAPES"
+        },
+        "terms": ""
+      },
+      "section": "residential-for-sale",
+      "showcaseListings": [],
+      "status": 200,
+      "topPerformingAgents": {
+        "area": {
+          "areaId": 4059,
+          "title": "Most visible agents in Athlone \u0026 Surrounds"
+        },
+        "agents": [
+          {
+            "id": 9644,
+            "email": "info@joenaughton.ie",
+            "branch": "Joe Naughton Auctioneer",
+            "branding": {
+              "backgroundColour": "#e76e2c",
+              "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwib3V0cHV0Rm9ybWF0IjoicG5nIiwia2V5IjoiYy83L2M3YWI2NzJiN2MxNmNmMDYwZDAwZTJiMTlkMDI5MmJhX3N0YW5kYXJkLnBuZyJ9?signature=8c3d8a3622ee23e211f8728e35066137959bb13035275fb5199ebe61bf0df08c"
+            }
+          }
+        ]
+      },
+      "urlPath": "/property-for-sale/athlone-and-surrounds-roscommon",
+      "user": {
+        "sub": "b6b6dc74-b81d-4709-8a80-375f22afabe3",
+        "email_verified": false,
+        "user_id": "2047681",
+        "user_details": {
+          "userId": 2047681,
+          "legacyId": 2047681,
+          "username": "joeoheron",
+          "name": "Joe OHeron",
+          "email": "joeoheron@gmail.com",
+          "description": "TO_BUY_FIRST_TIME_BUYER",
+          "verified": false,
+          "phoneVerified": false,
+          "createdAt": 1599307153143,
+          "updatedAt": 1604594609346,
+          "contactInfo": {
+            "phoneInfo": "",
+            "email": "",
+            "altEmail": ""
+          },
+          "consent": {
+            "termsOfUseAccepted": true,
+            "receiveEmailAccepted": false,
+            "receiveNotificationAccepted": false
+          },
+          "origin": "LEGACY"
+        },
+        "name": "Joe OHeron",
+        "preferred_username": "joeoheron",
+        "given_name": "Joe OHeron",
+        "email": "joeoheron@gmail.com",
+        "access_token": "",
+        "expires_at": 1760888874,
+        "id_token": ""
+      },
+      "daftCookies": {}
+    }
+  },
+  "page": "/search",
+  "query": {
+    "adState": "published",
+    "locationPath": "athlone-and-surrounds-roscommon"
+  },
+  "buildId": "1cNSTLbBYcsIwc6OO43n1",
+  "assetPrefix": "https://dist-property-frontend-daft.daft.ie",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gip": true,
+  "appGip": true,
+  "scriptLoader": []
+}

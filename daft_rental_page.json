@@ -1,0 +1,574 @@
+{
+  "tables": [
+    {
+      "id": "seller_table",
+      "name": "seller",
+      "x": -904.46,
+      "y": -151.4,
+      "locked": false,
+      "fields": [
+        {
+          "id": "seller_id_field",
+          "name": "seller_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "seller_name_field",
+          "name": "name",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "seller_profile_image_field",
+          "name": "profile_image",
+          "type": "TEXT"
+        },
+        {
+          "id": "seller_branch_field",
+          "name": "branch",
+          "type": "TEXT"
+        },
+        {
+          "id": "seller_address_field",
+          "name": "address",
+          "type": "TEXT"
+        },
+        {
+          "id": "seller_type_field",
+          "name": "seller_type",
+          "type": "TEXT"
+        },
+        {
+          "id": "seller_license_field",
+          "name": "licence_number",
+          "type": "TEXT"
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "listing_table",
+      "name": "listing",
+      "x": -407.1,
+      "y": 132.33,
+      "fields": [
+        {
+          "id": "listing_id_field",
+          "name": "listing_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "listing_title_field",
+          "name": "title",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "listing_price_field",
+          "name": "price",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_bedrooms_field",
+          "name": "num_bedrooms",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_bathrooms_field",
+          "name": "num_bathrooms",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_property_type_field",
+          "name": "property_type",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_publish_date_field",
+          "name": "publish_date",
+          "type": "DATE"
+        },
+        {
+          "id": "listing_description_field",
+          "name": "description",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_category_field",
+          "name": "category",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_state_field",
+          "name": "state",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_ber_field",
+          "name": "ber_rating",
+          "type": "TEXT"
+        },
+        {
+          "id": "listing_seller_id_field",
+          "name": "seller_id",
+          "type": "INTEGER",
+          "notNull": true
+        },
+        {
+          "id": "listing_featured_field",
+          "name": "featured",
+          "type": "BOOLEAN"
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "location_table",
+      "name": "location",
+      "x": 93.28,
+      "y": -72.59,
+      "fields": [
+        {
+          "id": "location_id_field",
+          "name": "location_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "location_listing_id_field",
+          "name": "listing_id",
+          "type": "INTEGER",
+          "notNull": true
+        },
+        {
+          "id": "location_latitude_field",
+          "name": "latitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "location_longitude_field",
+          "name": "longitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "location_area_field",
+          "name": "area_name",
+          "type": "TEXT"
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "facility_table",
+      "name": "facility",
+      "x": -206.51,
+      "y": -76.67,
+      "fields": [
+        {
+          "id": "facility_id_field",
+          "name": "facility_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "facility_key_field",
+          "name": "facility_key",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "facility_name_field",
+          "name": "facility_name",
+          "type": "TEXT",
+          "notNull": true
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "listing_facility_table",
+      "name": "listing_facility",
+      "x": -307,
+      "y": -35,
+      "fields": [
+        {
+          "id": "lf_listing_id_field",
+          "name": "listing_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true
+        },
+        {
+          "id": "lf_facility_id_field",
+          "name": "facility_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "primary_school_table",
+      "name": "primary_school",
+      "x": -104.58,
+      "y": 183.71,
+      "fields": [
+        {
+          "id": "primary_school_id_field",
+          "name": "primary_school_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "ps_school_name_field",
+          "name": "school_name",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "ps_num_pupils_field",
+          "name": "num_pupils",
+          "type": "INTEGER"
+        },
+        {
+          "id": "ps_distance_field",
+          "name": "distance_km",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "ps_latitude_field",
+          "name": "latitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "ps_longitude_field",
+          "name": "longitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "ps_listing_id_field",
+          "name": "listing_id",
+          "type": "INTEGER",
+          "notNull": true
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "secondary_school_table",
+      "name": "secondary_school",
+      "x": 261.32,
+      "y": 281.53,
+      "fields": [
+        {
+          "id": "secondary_school_id_field",
+          "name": "secondary_school_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "ss_school_name_field",
+          "name": "school_name",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "ss_num_pupils_field",
+          "name": "num_pupils",
+          "type": "INTEGER"
+        },
+        {
+          "id": "ss_distance_field",
+          "name": "distance_km",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "ss_latitude_field",
+          "name": "latitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "ss_longitude_field",
+          "name": "longitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "ss_listing_id_field",
+          "name": "listing_id",
+          "type": "INTEGER",
+          "notNull": true
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "transport_table",
+      "name": "transport",
+      "x": 216.66,
+      "y": 98.37,
+      "fields": [
+        {
+          "id": "transport_id_field",
+          "name": "transport_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "transport_type_field",
+          "name": "transport_type",
+          "type": "TEXT"
+        },
+        {
+          "id": "transport_stop_field",
+          "name": "stop_name",
+          "type": "TEXT"
+        },
+        {
+          "id": "transport_route_field",
+          "name": "route",
+          "type": "TEXT"
+        },
+        {
+          "id": "transport_destination_field",
+          "name": "destination",
+          "type": "TEXT"
+        },
+        {
+          "id": "transport_provider_field",
+          "name": "provider",
+          "type": "TEXT"
+        },
+        {
+          "id": "transport_distance_field",
+          "name": "distance_km",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "transport_latitude_field",
+          "name": "latitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "transport_longitude_field",
+          "name": "longitude",
+          "type": "DECIMAL"
+        },
+        {
+          "id": "transport_listing_id_field",
+          "name": "listing_id",
+          "type": "INTEGER",
+          "notNull": true
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "user_table",
+      "name": "user",
+      "x": -402.82,
+      "y": 606.99,
+      "fields": [
+        {
+          "id": "user_id_field",
+          "name": "user_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "user_username_field",
+          "name": "username",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "user_name_field",
+          "name": "name",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "user_email_field",
+          "name": "email",
+          "type": "TEXT",
+          "notNull": true
+        },
+        {
+          "id": "user_created_at_field",
+          "name": "created_at",
+          "type": "TIMESTAMP",
+          "notNull": true
+        },
+        {
+          "id": "user_updated_at_field",
+          "name": "updated_at",
+          "type": "TIMESTAMP",
+          "notNull": true
+        }
+      ],
+      "color": "#175e7a"
+    },
+    {
+      "id": "enquiry_table",
+      "name": "enquiry",
+      "x": -900.71,
+      "y": 330.48,
+      "fields": [
+        {
+          "id": "enquiry_id_field",
+          "name": "enquiry_id",
+          "type": "INTEGER",
+          "primary": true,
+          "notNull": true,
+          "increment": true
+        },
+        {
+          "id": "enquiry_listing_id_field",
+          "name": "listing_id",
+          "type": "INTEGER",
+          "notNull": true
+        },
+        {
+          "id": "enquiry_user_id_field",
+          "name": "user_id",
+          "type": "INTEGER",
+          "notNull": true
+        },
+        {
+          "id": "enquiry_created_at_field",
+          "name": "created_at",
+          "type": "TIMESTAMP",
+          "notNull": true
+        }
+      ],
+      "data": [],
+      "color": "#175e7a"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "listing_seller_rel",
+      "startTableId": "listing_table",
+      "startFieldId": "listing_seller_id_field",
+      "endTableId": "seller_table",
+      "endFieldId": "seller_id_field",
+      "cardinality": "many_to_one",
+      "name": "Managed By"
+    },
+    {
+      "id": "location_listing_rel",
+      "startTableId": "location_table",
+      "startFieldId": "location_listing_id_field",
+      "endTableId": "listing_table",
+      "endFieldId": "listing_id_field",
+      "cardinality": "one_to_one",
+      "name": "Located At"
+    },
+    {
+      "id": "listing_facility_listing_rel",
+      "startTableId": "listing_facility_table",
+      "startFieldId": "lf_listing_id_field",
+      "endTableId": "listing_table",
+      "endFieldId": "listing_id_field",
+      "cardinality": "many_to_one",
+      "name": "Has"
+    },
+    {
+      "id": "listing_facility_facility_rel",
+      "startTableId": "listing_facility_table",
+      "startFieldId": "lf_facility_id_field",
+      "endTableId": "facility_table",
+      "endFieldId": "facility_id_field",
+      "cardinality": "many_to_one",
+      "name": "Includes"
+    },
+    {
+      "id": "primary_school_listing_rel",
+      "startTableId": "primary_school_table",
+      "startFieldId": "ps_listing_id_field",
+      "endTableId": "listing_table",
+      "endFieldId": "listing_id_field",
+      "cardinality": "many_to_one",
+      "name": "Near"
+    },
+    {
+      "id": "secondary_school_listing_rel",
+      "startTableId": "secondary_school_table",
+      "startFieldId": "ss_listing_id_field",
+      "endTableId": "listing_table",
+      "endFieldId": "listing_id_field",
+      "cardinality": "many_to_one",
+      "name": "Near"
+    },
+    {
+      "id": "transport_listing_rel",
+      "startTableId": "transport_table",
+      "startFieldId": "transport_listing_id_field",
+      "endTableId": "listing_table",
+      "endFieldId": "listing_id_field",
+      "cardinality": "many_to_one",
+      "name": "Near"
+    },
+    {
+      "id": "enquiry_listing_rel",
+      "startTableId": "enquiry_table",
+      "startFieldId": "enquiry_listing_id_field",
+      "endTableId": "listing_table",
+      "endFieldId": "listing_id_field",
+      "cardinality": "many_to_one",
+      "name": "Receives"
+    },
+    {
+      "id": "enquiry_user_rel",
+      "startTableId": "enquiry_table",
+      "startFieldId": "enquiry_user_id_field",
+      "endTableId": "user_table",
+      "endFieldId": "user_id_field",
+      "cardinality": "many_to_one",
+      "name": "Sends"
+    }
+  ],
+  "notes": [
+    {
+      "id": 0,
+      "x": 283.21,
+      "y": 619.2,
+      "title": "Assumptions",
+      "content": "- Won't be considering email alerts\n- Search results pages?\n- Listing page only?\n- Pages as associative",
+      "color": "#fcacac",
+      "height": 210,
+      "width": 180
+    },
+    {
+      "id": 1,
+      "x": 60.8,
+      "y": 622.02,
+      "title": "Considerations",
+      "content": "- Listings might have drafted or published states\n- Sellers belong to branches?",
+      "color": "#fcf7ac",
+      "height": 162,
+      "width": 180
+    }
+  ],
+  "subjectAreas": [],
+  "database": "mysql",
+  "title": "Daft Property Listings"
+}

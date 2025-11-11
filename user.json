@@ -1,0 +1,37 @@
+{
+  "user": {
+    "sub": "b6b6dc74-b81d-4709-8a80-375f22afabe3",
+    "email_verified": false,
+    "user_id": "2047681",
+    "user_details": {
+      "userId": 2047681,
+      "legacyId": 2047681,
+      "username": "joeoheron",
+      "name": "Joe OHeron",
+      "email": "joeoheron@gmail.com",
+      "description": "TO_BUY_FIRST_TIME_BUYER",
+      "verified": false,
+      "phoneVerified": false,
+      "createdAt": 1599307153143,
+      "updatedAt": 1604594609346,
+      "contactInfo": {
+        "phoneInfo": "",
+        "email": "",
+        "altEmail": ""
+      },
+      "consent": {
+        "termsOfUseAccepted": true,
+        "receiveEmailAccepted": false,
+        "receiveNotificationAccepted": false
+      },
+      "origin": "LEGACY"
+    },
+    "name": "Joe OHeron",
+    "preferred_username": "joeoheron",
+    "given_name": "Joe OHeron",
+    "email": "joeoheron@gmail.com",
+    "access_token": "",
+    "expires_at": 1760891197,
+    "id_token": ""
+  }
+}

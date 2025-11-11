@@ -1,0 +1,45 @@
+{
+  "types": [
+    {
+      "privateSeller": {
+        "sellerId": 1299704,
+        "name": "Dave an Martin",
+        "sellerType": "PRIVATE_USER",
+        "showContactForm": true,
+        "premierPartnerSeller": false,
+        "sellerAvailable": true
+      }
+    },
+    {
+      "unbrandedSeller": {
+        "sellerId": 7064,
+        "name": "Catherine A. Murray",
+        "branch": "Hyde Auctioneers",
+        "address": "Main Street,\r\nCarrigtwohill,\r\nCo. Cork",
+        "licenceNumber": "003255",
+        "sellerType": "UNBRANDED_AGENT",
+        "showContactForm": true,
+        "premierPartnerSeller": false,
+        "sellerAvailable": true
+      }
+    },
+    {
+      "brandedSeller": {
+        "sellerId": 1196,
+        "name": "Kelly Mellerick",
+        "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRhZnQvaW1hZ2VzL25vLXByb2ZpbGUtcGljdHVyZS5wbmcifQ==?signature=59e7f2f0d0cabea9256ea70d7dd0e1f194b8f78732bb25546d1a304261df6201",
+        "profileRoundedImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicm91bmRDcm9wIjp0cnVlLCJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6MTAwLCJoZWlnaHQiOjEwMH19LCJvdXRwdXRGb3JtYXQiOiJwbmciLCJrZXkiOiJkYWZ0L2ltYWdlcy9uby1wcm9maWxlLXBpY3R1cmUucG5nIn0=?signature=37a9664c3582898ac0bfa9162527bbf32e1b1410f97851f137ed33d4537b06ff",
+        "branch": "ERA Downey McCarthy",
+        "address": "60 South Mall, Cork City\r\n\r\nOffice hours: Mon - Fri 9 - 5.30 pm.",
+        "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiMS9kLzFkOGQxZTRiODJlNjA4N2RiZjc1YTJkNjhlYzRiNmQyX3N0YW5kYXJkLnBuZyJ9?signature=8837db309fdfe368e1345318e5c0e6bcda0ffe300bf804366d8d517c823e99c6",
+        "squareLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6IjMvMC8zMDFhZGQyNGQwMTdlNzIxMDc5MmNmYTdmZTU2MmQyZC5wbmcifQ==?signature=a65cd04e93ce1e512e8f60f05b2a2cd420652898c0c5bb06bc26cf94fccd576c",
+        "backgroundColour": "#300062",
+        "licenceNumber": "002584",
+        "sellerType": "BRANDED_AGENT",
+        "showContactForm": true,
+        "premierPartnerSeller": false,
+        "sellerAvailable": true
+      }
+    }
+  ]
+}

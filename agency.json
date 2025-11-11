@@ -1,0 +1,289 @@
+{
+  "listings": [
+    {
+      "listing": {
+        "id": 5816886,
+        "title": "Toe Head, Castletownshend, Co. Cork, P81T226",
+        "seoTitle": "Toe Head, Castletownshend, Co. Cork, P81T226",
+        "sections": ["Property", "Residential", "House", "Detached House"],
+        "saleType": ["For Sale"],
+        "featuredLevel": "PREMIUM",
+        "featuredLevelFull": "PREMIER_PARTNER_PREMIUM",
+        "sticker": "Viewing Advised",
+        "publishDate": 1760624606000,
+        "price": "€895,000",
+        "abbreviatedPrice": "€895k",
+        "numBedrooms": "4 Bed",
+        "numBathrooms": "4 Bath",
+        "propertyType": "Detached",
+        "daftShortcode": "15816886",
+        "seller": {
+          "sellerId": 2581,
+          "name": "Maeve McCarthy",
+          "phone": "028 21533",
+          "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImIvMy9iMzUwNjE4NDZhNzc3YjUyYmQ1NDM5NDdjYmVmNjZlMS5wbmcifQ==?signature=fe70738e88d05400831439d5a9429c7600c8d2922de0976e43c8ca5a05f69438",
+          "profileRoundedImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicm91bmRDcm9wIjp0cnVlLCJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6MTAwLCJoZWlnaHQiOjEwMH19LCJvdXRwdXRGb3JtYXQiOiJwbmciLCJrZXkiOiJiLzMvYjM1MDYxODQ2YTc3N2I1MmJkNTQzOTQ3Y2JlZjY2ZTEucG5nIn0=?signature=ad33a1e12f27b2fd078c8fde8a10dd4e73b8776dabb1835cccfdebd0403befcb",
+          "branch": "Charles McCarthy  Estate Agents",
+          "address": "46 Bridge Street,\r\nSkibbereen,\r\nWest Cork",
+          "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNC9jLzRjODkxZmM3ZDE5YjVhZWFhZDA0YmE0NWMzNjJkNWQ5X3N0YW5kYXJkLnBuZyJ9?signature=5167672056df769b3414e4f1214bb1572a4dfe8d58c16b8b2d0fdbaf5b23c399",
+          "squareLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6IjIvYy8yYzMxZjQxZmVjNDA5OGQzMjliZjFlNWYyMDZiZWZmNC5wbmcifQ==?signature=72c0988d84aeb9a06ef2498c12adac151a26091ef0df445255a6e84a211ca8c1",
+          "backgroundColour": "#cf1838",
+          "licenceNumber": "001176",
+          "sellerType": "UNBRANDED_AGENT",
+          "showContactForm": true,
+          "premierPartnerSeller": false,
+          "sellerAvailable": true
+        },
+        "dateOfConstruction": "1980",
+        "media": {
+          "images": [
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImQvZi9kZjdlNWUxOC0zYzM0LTRhM2ItOWI5OC1hMTdkNzJmYzZjZmYuSlBFRyJ9?signature=4d52ae8d7f00b09d29442410d92d30f46246ebd13706cadc108e345aa4905d67",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiJkL2YvZGY3ZTVlMTgtM2MzNC00YTNiLTliOTgtYTE3ZDcyZmM2Y2ZmLkpQRUcifQ==?signature=9b2c908c1706238e3d5252584f7e7ec534ee79e1bd5e7c9701c648ad1cfb7989"
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImYvMi9mMjc0YjkxMy0wYTgzLTQyZDItYjk0YS03OTkzOTY4ZjYwNzQuSlBFRyJ9?signature=e7650ea1ebde093cc1919dfbbd4b18ad22e6bbdd475c61e4ba71ff933c38baf3",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiJmLzIvZjI3NGI5MTMtMGE4My00MmQyLWI5NGEtNzk5Mzk2OGY2MDc0LkpQRUcifQ==?signature=db5fe8196cf24fe156d686bb045c6def9f0a27fd71bc6ef1713ebb4fb7f0d78d",
+              "imageLabels": [{ "label": "Pool", "type": "POOL" }]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjkvNC85NDYxYzE4NC05NTI4LTRjNDMtOTk1Ni0xNzY5ZDdjOGM1MmUuSlBFRyJ9?signature=eb3516bbdee35e0b6362729cd13bf4cea9232a3f77df9cbf08f983040c7ad9a2",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI5LzQvOTQ2MWMxODQtOTUyOC00YzQzLTk5NTYtMTc2OWQ3YzhjNTJlLkpQRUcifQ==?signature=ae031063f49e6e48ab2c58e39efa4c62ba1b1dd620d64bf596fe6d3deacfc998",
+              "imageLabels": [
+                {
+                  "label": "Living Room",
+                  "type": "LIVING_ROOM"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjYvMC82MDNiZGZmNi1mM2Q0LTQxYTItYTg4Yi1iNzBkNjM5OGFlNWMuSlBFRyJ9?signature=b3ad595e8d5af229430e1edfb74cf1b49846523f53fcc5457e66d6113bf6acb8",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI2LzAvNjAzYmRmZjYtZjNkNC00MWEyLWE4OGItYjcwZDYzOThhZTVjLkpQRUcifQ==?signature=65fdb8f2795d42a2e031080e86324aceaccb947cde65ef1af13d066d23791fb1",
+              "imageLabels": [
+                {
+                  "label": "Living Room",
+                  "type": "LIVING_ROOM"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjYvZS82ZWFkZjdmMi0zN2M5LTRiZWMtODJiNC1jMzRlZDYwOTk2NGIuSlBFRyJ9?signature=4a4c8c05a141b08061436f88e60a9f1b4ba2ec35489f3e6da2e2f9076df7487e",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI2L2UvNmVhZGY3ZjItMzdjOS00YmVjLTgyYjQtYzM0ZWQ2MDk5NjRiLkpQRUcifQ==?signature=64435fe69d82efdf44c2af962eaed17e27b2aa89f1b6df85a24bbc58dc5d5e06"
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjQvNS80NTk5MTdkZi0yYTJmLTQ3OTItYmFhYi0zZGFhY2UzYjM1OTcuSlBFRyJ9?signature=25a956399da4c4f13323f8e2f143ac21386873bb826250ec64d209a570cd8d9e",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI0LzUvNDU5OTE3ZGYtMmEyZi00NzkyLWJhYWItM2RhYWNlM2IzNTk3LkpQRUcifQ==?signature=a1e36c98b1f4f9a20b5143d77ca01895ebd5e85b95c39a301c724c2eb8ad9ba0"
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjQvOC80ODlkZWUzMy02NTEzLTQ3NjItOTllYy03MGMzODAyYzI4NTguSlBFRyJ9?signature=8a031dd2d29587ae5544b138103648c12f6ce92cdd3f7940bc2cad8197110fb8",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI0LzgvNDg5ZGVlMzMtNjUxMy00NzYyLTk5ZWMtNzBjMzgwMmMyODU4LkpQRUcifQ==?signature=f78802f2c8fbf65068e984c0ff997a56e15358eff962525e21852d2141f2074e",
+              "imageLabels": [
+                {
+                  "label": "Bedroom",
+                  "type": "BEDROOM"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjAvMS8wMTgyZWFiNi1jYWRhLTQ5YTctYWYyNC0yNDVlODdlMGQ2NzcuSlBFRyJ9?signature=7cdd4ef9025ed79c4cf53be2edb93af7230795ce10b8cb37adaa47d0b1313a6e",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiIwLzEvMDE4MmVhYjYtY2FkYS00OWE3LWFmMjQtMjQ1ZTg3ZTBkNjc3LkpQRUcifQ==?signature=a927ae5ed519367475eec96f6024d385c3bddb22500d2854f7ccfd0152f448ec",
+              "imageLabels": [
+                {
+                  "label": "Bedroom",
+                  "type": "BEDROOM"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImMvOS9jOTkyNDQzYS00NzdiLTQ5ZGItOWE4NC0yMDNmYTNjZDNmZDEuSlBFRyJ9?signature=d0edccfc49920f0c9606d8823a40f4df2f1c08de2defd82e20e6405d95df9904",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiJjLzkvYzk5MjQ0M2EtNDc3Yi00OWRiLTlhODQtMjAzZmEzY2QzZmQxLkpQRUcifQ==?signature=51a5a178ef96eb4decc1b750dd0479cce87dbd8303d04cc44bdb3a627cbf2255"
+            }
+          ],
+          "totalImages": 31,
+          "hasVideo": true,
+          "hasVirtualTour": false,
+          "hasBrochure": false
+        },
+        "ber": {
+          "rating": "C1",
+          "code": "117656678",
+          "epi": "156.94 kWh/m2/yr"
+        },
+        "platform": "WEB",
+        "floorArea": {
+          "unit": "METRES_SQUARED",
+          "value": "404"
+        },
+        "propertySize": "404 m²",
+        "point": {
+          "type": "Point",
+          "coordinates": [-9.234532, 51.486949]
+        },
+        "seoFriendlyPath": "/for-sale/detached-house-toe-head-castletownshend-co-cork/5816886",
+        "pageBranding": {
+          "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNC9jLzRjODkxZmM3ZDE5YjVhZWFhZDA0YmE0NWMzNjJkNWQ5X3N0YW5kYXJkLnBuZyJ9?signature=5167672056df769b3414e4f1214bb1572a4dfe8d58c16b8b2d0fdbaf5b23c399",
+          "squareLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6IjIvYy8yYzMxZjQxZmVjNDA5OGQzMjliZjFlNWYyMDZiZWZmNC5wbmcifQ==?signature=72c0988d84aeb9a06ef2498c12adac151a26091ef0df445255a6e84a211ca8c1",
+          "backgroundColour": "#cf1838",
+          "squareLogos": [
+            "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6IjIvYy8yYzMxZjQxZmVjNDA5OGQzMjliZjFlNWYyMDZiZWZmNC5wbmcifQ==?signature=72c0988d84aeb9a06ef2498c12adac151a26091ef0df445255a6e84a211ca8c1"
+          ],
+          "rectangleLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNC9jLzRjODkxZmM3ZDE5YjVhZWFhZDA0YmE0NWMzNjJkNWQ5X3N0YW5kYXJkLnBuZyJ9?signature=5167672056df769b3414e4f1214bb1572a4dfe8d58c16b8b2d0fdbaf5b23c399"
+        },
+        "category": "Buy",
+        "state": "PUBLISHED",
+        "premierPartner": true
+      },
+      "savedAd": false,
+      "imageRestricted": false
+    },
+    {
+      "listing": {
+        "id": 6041045,
+        "title": "Majos House, Enaughter, Goleen, Co. Cork, P81YH01",
+        "seoTitle": "Majos House, Enaughter, Goleen, Co. Cork, P81YH01",
+        "sections": ["Property", "Residential", "House", "Detached House"],
+        "saleType": ["For Sale"],
+        "featuredLevel": "LITE",
+        "featuredLevelFull": "PREMIER_PARTNER_LITE",
+        "sticker": "Reduced Price",
+        "publishDate": 1760624606000,
+        "price": "€795,000",
+        "abbreviatedPrice": "€795k",
+        "numBedrooms": "3 Bed",
+        "numBathrooms": "2 Bath",
+        "propertyType": "Detached",
+        "daftShortcode": "16041045",
+        "seller": {
+          "sellerId": 2581,
+          "name": "Sean Carmody",
+          "phone": "028 21533",
+          "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImUvNC9lNDFlYWQ4NzZhNmZmNTRjNTg4ZDQ1NzcxMzhhMmVhYS5wbmcifQ==?signature=74564bb6e2a3b7773dd25f1bb8f18644f34517bd58389ac42e9551d3152e2d9f",
+          "profileRoundedImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicm91bmRDcm9wIjp0cnVlLCJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6MTAwLCJoZWlnaHQiOjEwMH19LCJvdXRwdXRGb3JtYXQiOiJwbmciLCJrZXkiOiJlLzQvZTQxZWFkODc2YTZmZjU0YzU4OGQ0NTc3MTM4YTJlYWEucG5nIn0=?signature=ccd311d27e103d9a4d28c56e48ec8a47cdee24620c00c626f777d45c550fa40b",
+          "branch": "Charles McCarthy  Estate Agents",
+          "address": "46 Bridge Street,\r\nSkibbereen,\r\nWest Cork",
+          "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNC9jLzRjODkxZmM3ZDE5YjVhZWFhZDA0YmE0NWMzNjJkNWQ5X3N0YW5kYXJkLnBuZyJ9?signature=5167672056df769b3414e4f1214bb1572a4dfe8d58c16b8b2d0fdbaf5b23c399",
+          "squareLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6IjIvYy8yYzMxZjQxZmVjNDA5OGQzMjliZjFlNWYyMDZiZWZmNC5wbmcifQ==?signature=72c0988d84aeb9a06ef2498c12adac151a26091ef0df445255a6e84a211ca8c1",
+          "backgroundColour": "#cf1838",
+          "licenceNumber": "001176",
+          "sellerType": "UNBRANDED_AGENT",
+          "showContactForm": true,
+          "premierPartnerSeller": false,
+          "sellerAvailable": true
+        },
+        "dateOfConstruction": "1850",
+        "media": {
+          "images": [
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjkvZi85ZmRkNjFkZC0xMWU5LTRlOGMtYjI2MS01NTQ5OGJiMGNlYzYuSlBFRyJ9?signature=c72fdf556c452ba12afc583d7f980b92b46586a3b23970dc9b11ff2e92938993",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI5L2YvOWZkZDYxZGQtMTFlOS00ZThjLWIyNjEtNTU0OThiYjBjZWM2LkpQRUcifQ==?signature=ee2dc5ff19442a40266a6a3e22b24536e03df359d94247a43faca61e20d8148d"
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjYvOC82ODBlNTQxMC04YjgyLTQ3OTgtYWMxNy0yZWU1MGIzYmM5OTcuSlBFRyJ9?signature=826e83f02a0cd17d4b1072132039d28119b6e264a2a2919b2dc41ba4c24a7d53",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI2LzgvNjgwZTU0MTAtOGI4Mi00Nzk4LWFjMTctMmVlNTBiM2JjOTk3LkpQRUcifQ==?signature=199523023f3e95e9df83f4815f8a1438a5a1cdded45125743932146bf2b694b0"
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImYvMy9mM2YxYTgyYS1kNGU2LTRkM2ItOTRkMC1iMTg0ZjQ1YWZkNjYuSlBFRyJ9?signature=ad280881175d8bd5aa337f70d3971598632148dfb3df0d0853cf935c8c90347a",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiJmLzMvZjNmMWE4MmEtZDRlNi00ZDNiLTk0ZDAtYjE4NGY0NWFmZDY2LkpQRUcifQ==?signature=eaf63fc438ef22ed15ed44fc43a57fae04daed4f636c661238a4372fbdf47488"
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImMvZi9jZjNlMWQ4Yy05YzlhLTQwZDItYWVlNy0zZTI2YTU2Y2VhNTMuSlBFRyJ9?signature=9b893545c80cbe1bafd62116e9d1345d73679423f5ba878c386ed8f105e6806d",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiJjL2YvY2YzZTFkOGMtOWM5YS00MGQyLWFlZTctM2UyNmE1NmNlYTUzLkpQRUcifQ==?signature=377d9732ade0d95a32963c999f2aabeeeecac6462e461d2dd8597041051a95bd",
+              "imageLabels": [
+                {
+                  "label": "Driveway",
+                  "type": "DRIVEWAY"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjkvNi85NjQ1ZmE3Ni01NjBlLTQ0MTYtOTU1ZC02MDgzOTc5YTQzZjMuSlBFRyJ9?signature=5d107da9f42314e009ebb531fb27edc9ffbf7f60f9a9b35656087806f7b880de",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI5LzYvOTY0NWZhNzYtNTYwZS00NDE2LTk1NWQtNjA4Mzk3OWE0M2YzLkpQRUcifQ==?signature=d53750044e525e32997e0e1abbf83866151a252fbe1ce80f126548f8cc2bacbc"
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjkvZC85ZGU1YzQwMy01MDBmLTQ3ZjctODVlZi1jZTlmNDZkMjVlNmQuSlBFRyJ9?signature=49c8856a6a898fd6a2fcce3453972c3896993513cce18247b20447073cfdddee",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI5L2QvOWRlNWM0MDMtNTAwZi00N2Y3LTg1ZWYtY2U5ZjQ2ZDI1ZTZkLkpQRUcifQ==?signature=4bbe123e5155bf9e55a35f028ae535ab4f443543c828b08cb25bfbb7fdececb3",
+              "imageLabels": [
+                {
+                  "label": "Kitchen",
+                  "type": "KITCHEN"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjQvOC80ODc5MTA3OC05MmE1LTQzMjEtYTFhNC00NjliN2M2MTdiNDIuSlBFRyJ9?signature=36006ab41d7cd543a4d546b238729ae100bfbb88999f131f38e8a7b6d0d53bf9",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI0LzgvNDg3OTEwNzgtOTJhNS00MzIxLWExYTQtNDY5YjdjNjE3YjQyLkpQRUcifQ==?signature=26e1a98973c36101e2a08797c9d9acdfa0a8026ed332ff725c201db8cb9b261f",
+              "imageLabels": [
+                {
+                  "label": "Living Room",
+                  "type": "LIVING_ROOM"
+                },
+                {
+                  "label": "Dining Room",
+                  "type": "DINING_ROOM"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImMvYS9jYTg3ZDQ5Ny0zYTNjLTQ1ODgtOWM0NC1hYWQ2ODE5YjkyNGYuSlBFRyJ9?signature=138b74ab3122493f124c9d18ba86e3a4bc1e2d0052a2623f85f20bfc77d98412",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiJjL2EvY2E4N2Q0OTctM2EzYy00NTg4LTljNDQtYWFkNjgxOWI5MjRmLkpQRUcifQ==?signature=4f0a8f2c39fb82d8b565799e8d509eefd9168ea7cff454946930cf2757915c14",
+              "imageLabels": [
+                {
+                  "label": "Living Room",
+                  "type": "LIVING_ROOM"
+                },
+                {
+                  "label": "Dining Room",
+                  "type": "DINING_ROOM"
+                }
+              ]
+            },
+            {
+              "size720x480": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjcvNC83NGMyMjNiZS0xM2YwLTQwNWEtOTIxOC0yODA1NGMzYjAzMGQuSlBFRyJ9?signature=407ef089506ca0e91842b2a21925cb2d41282f62d3dd4b5d8dcdaa16798171c5",
+              "size72x52": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyLCJoZWlnaHQiOjUyfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI3LzQvNzRjMjIzYmUtMTNmMC00MDVhLTkyMTgtMjgwNTRjM2IwMzBkLkpQRUcifQ==?signature=c3df29b2436814c2b8d5d5c43c226864ed25e14463bc7789aae1caa813d9857d",
+              "imageLabels": [
+                {
+                  "label": "Living Room",
+                  "type": "LIVING_ROOM"
+                }
+              ]
+            }
+          ],
+          "totalImages": 40,
+          "hasVideo": false,
+          "hasVirtualTour": false,
+          "hasBrochure": false
+        },
+        "ber": {
+          "rating": "B2",
+          "code": "118120146",
+          "epi": "108.73 kWh/m2/yr"
+        },
+        "platform": "WEB",
+        "floorArea": {
+          "unit": "METRES_SQUARED",
+          "value": "186"
+        },
+        "propertySize": "186 m²",
+        "point": {
+          "type": "Point",
+          "coordinates": [-9.712498, 51.505731]
+        },
+        "seoFriendlyPath": "/for-sale/detached-house-majos-house-enaughter-goleen-co-cork/6041045",
+        "pageBranding": {
+          "standardLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNC9jLzRjODkxZmM3ZDE5YjVhZWFhZDA0YmE0NWMzNjJkNWQ5X3N0YW5kYXJkLnBuZyJ9?signature=5167672056df769b3414e4f1214bb1572a4dfe8d58c16b8b2d0fdbaf5b23c399",
+          "squareLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6IjIvYy8yYzMxZjQxZmVjNDA5OGQzMjliZjFlNWYyMDZiZWZmNC5wbmcifQ==?signature=72c0988d84aeb9a06ef2498c12adac151a26091ef0df445255a6e84a211ca8c1",
+          "backgroundColour": "#cf1838",
+          "squareLogos": [
+            "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAsImhlaWdodCI6MTIwfX0sImtleSI6IjIvYy8yYzMxZjQxZmVjNDA5OGQzMjliZjFlNWYyMDZiZWZmNC5wbmcifQ==?signature=72c0988d84aeb9a06ef2498c12adac151a26091ef0df445255a6e84a211ca8c1"
+          ],
+          "rectangleLogo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNC9jLzRjODkxZmM3ZDE5YjVhZWFhZDA0YmE0NWMzNjJkNWQ5X3N0YW5kYXJkLnBuZyJ9?signature=5167672056df769b3414e4f1214bb1572a4dfe8d58c16b8b2d0fdbaf5b23c399"
+        },
+        "category": "Buy",
+        "state": "PUBLISHED",
+        "premierPartner": true
+      },
+      "savedAd": false,
+      "imageRestricted": false
+    }
+  ]
+}
