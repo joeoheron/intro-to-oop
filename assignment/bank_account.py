@@ -1,29 +1,31 @@
+import random
+
+
 # Account Class
 class Bank_Account:
-    def __init__(self, id, currencies):
-        self.id = id
-        self.currencies = currencies
+    def __init__(self, client):
+        # Found this idea for a random number at a specified digit length here: https://python-forum.io/thread-27756.html
+        self.id = format(random.randint(0, 9999999999999999), "016d")
+        self.client = client
+        self.amount = 0
+        self.currencies = []
+        self.client.bank_accounts.append(self)
+        self.show_details()
+        return
 
     # Open Individual Account Method
-    def open_individual_account(self):
-        return
+    # def open_individual_account(self):
+    # Found this idea for a random number at a specified digit length here: https://python-forum.io/thread-27756.html
+    # self.id = format(random.randint(0, 9999999999999999), "016d")
+    # self.client.bank_accounts.insert(0, self)
+    # self.show_details()
+    # return
 
     # Open Business Account
-    def open_business_account(self):
-        return
+    # def open_business_account(self):
+    #     return
 
     # Show Balance Method
-    def show_balance(self):
-        return
-
-    # Deposit Funds Method
-    def deposit_funds(self):
-        return
-
-    # Convert Funds Method
-    def convert_funds(self):
-        return
-
-    # Withdraw Funds Method
-    def withdraw_funds(self):
+    def show_details(self):
+        print(self.id)
         return

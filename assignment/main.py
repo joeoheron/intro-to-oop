@@ -1,9 +1,10 @@
-from menu import display_menu
+# from client import Client
+from menu import display_welcome
 
 
 def main():
-    # ACSII Art Generated at https://patorjk.com/software/taag
-    display_menu()
+    clients = []
+    display_welcome(clients)
 
 
 if __name__ == "__main__":
