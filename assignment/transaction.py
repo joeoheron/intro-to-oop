@@ -2,6 +2,7 @@ import datetime
 
 
 class Transaction:
+    # The constructor for the Transaction class
     def __init__(self, bank_account):
         self.timestamp = datetime.datetime.now()
         self.bank_account = bank_account

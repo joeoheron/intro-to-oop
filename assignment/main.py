@@ -1,10 +1,10 @@
 # from client import Client
-from menu import display_welcome
+from menu import display_authentication
 
 
 def main():
-    clients = []
-    display_welcome(clients)
+    users = []
+    display_authentication(users)
 
 
 if __name__ == "__main__":
