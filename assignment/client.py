@@ -29,6 +29,11 @@ class Client:
             account_index += 1
             print(f"[{account_index}] Account ID: {bank_account.id}")
 
+        chosen_account = int(input("\nWhich account would you like to work with?"))
+
+        if chosen_account == account_index:
+            print(f"Account Balance: {bank_account.balance}")
+
 
 def log_in(email, password, clients=[]):
     if email and password:

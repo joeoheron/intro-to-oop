@@ -7,11 +7,12 @@ class Bank_Account:
         # Found this idea for a random number at a specified digit length here: https://python-forum.io/thread-27756.html
         self.id = format(random.randint(0, 9999999999999999), "016d")
         self.client = client
-        self.amount = 0
+        self.type = ""
+        self.balances = []
         self.currencies = []
         self.client.bank_accounts.append(self)
+        self.transactions = []
         self.show_details()
-        return
 
     # Open Individual Account Method
     # def open_individual_account(self):

@@ -1,18 +1,15 @@
+from ascii import Ascii
 from bank_account import Bank_Account
 from client import Client, log_in
+
+ascii = Ascii()
 
 
 def display_welcome(clients):
     # If no clients exist yet, then we need to start by creating one
     if not clients:
         # ACSII Art Generated at https://patorjk.com/software/taag
-        print("""
-      ___ _   _ ___ ___   ___            _   _
-     / __| | | | _ ) __| | _ ) __ _ _ _ | |_(_)_ _  __ _
-    | (__| |_| | _ \\__ \\ | _ \\/ _` | ' \\| / / | ' \\/ _` |
-     \\___|\\___/|___/___/ |___/\\__,_|_||_|_\\_\\_|_||_\\__, |
-                                                   |___/
-            """)
+        print(ascii.cubs)
         print(
             "Welcome to CUBS Banking Limited's online services!\n\nLet's get you started by creating an online banking account...\n"
         )
@@ -28,13 +25,7 @@ def display_welcome(clients):
 
         display_main_menu(client, clients)
     else:
-        print("""
-      ___ _   _ ___ ___   ___            _   _
-     / __| | | | _ ) __| | _ ) __ _ _ _ | |_(_)_ _  __ _
-    | (__| |_| | _ \\__ \\ | _ \\/ _` | ' \\| / / | ' \\/ _` |
-     \\___|\\___/|___/___/ |___/\\__,_|_||_|_\\_\\_|_||_\\__, |
-                                                   |___/
-            """)
+        print(ascii.cubs)
         print(
             "Welcome to CUBS Banking Limited's online services!\n\nPlease log in to continue.\n"
         )
@@ -48,12 +39,12 @@ def display_welcome(clients):
 
 
 def display_main_menu(client, clients):
-    print("\nHow can we help you today?")
+    print(f"{ascii.dashboard}\nHow can we help you today?")
 
     while client.session:
         main_menu_choice = int(
             input(
-                "\n[1] Show Accounts\n[2] Open a New Bank Account\n[3] Log Out\n[4] Exit Program\n\n"
+                "\n[1] Show My Bank Accounts\n[2] Open a New Bank Account\n[3] Log Out\n[4] Exit Program\n\n"
             )
         )
         print()
