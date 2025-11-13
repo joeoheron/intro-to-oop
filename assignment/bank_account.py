@@ -29,11 +29,11 @@ class Bank_Account:
             )
         )
         if primary_currency == 1:
-            self.currencies.update({1: "EUR"})
+            self.currencies.update({1: "eur"})
         elif primary_currency == 2:
-            self.currencies.update({2: "USD"})
+            self.currencies.update({2: "usd"})
         elif primary_currency == 3:
-            self.currencies.update({3: "GBP"})
+            self.currencies.update({3: "gbp"})
         add_another_currency = True
         while add_another_currency:
             add_another_currency = int(
@@ -43,11 +43,13 @@ class Bank_Account:
             )
             if add_another_currency == 1:
                 # Found this way to compare two dictionaries here: https://stackoverflow.com/a/32815681
-                still_available_currencies = {
+                available_currencies = {
                     currency_key: available_currencies[currency_key]
                     for currency_key in set(available_currencies) - set(self.currencies)
                 }
-                if not still_available_currencies:
+                # https://docs.python.org/3/library/stdtypes.html#mapping-types-dict & https://www.w3schools.com/python/python_iterators.asp
+                # currency_iterator = iter(available_currencies)
+                if not available_currencies:
                     print(
                         "\nYou already hold balances for the available currency options for your account."
                     )
@@ -55,8 +57,10 @@ class Bank_Account:
                     print(
                         "\nWhich additional currency would you like to add to your account?"
                     )
-                    for still_available_currency in still_available_currencies.values():
-                        print(f"{still_available_currency}")
+                    for key, value in available_currencies.items():
+                        next(iter(available_currencies))
+                        print(f"[{key}] {value}")
+                        print(next(currency_iterator))
                     additional_currency = int(input("\n"))
 
         self.balances = []
