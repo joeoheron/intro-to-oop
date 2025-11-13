@@ -20,55 +20,35 @@ class Bank_Account:
             print(
                 "Invalid option. Please only enter a [1] for a personal account or a [2] for a business account."
             )
-        # This desired currencies setup is proving to be some of the most difficult logic to me so far.
-        available_currencies = {1: "EUR (€)", 2: "USD ($)", 3: "GBP (£)"}
-        self.currencies = {}
-        primary_currency = int(
+
+        self.balance = 100000.00
+        available_currencies = {"eur": "€", "usd": "$", "gbp": "£"}
+        chosen_currency = int(
             input(
-                f"\nWhat will be the primary currency for this account?\n\n[1] {available_currencies[1]}\n[2] {available_currencies[2]}\n[3] {available_currencies[3]}\n\n"
+                f"\nWhat will be the primary currency for this account?\n\n[1] {list(available_currencies.keys())[0].upper()} ({list(available_currencies.values())[0].upper()})\n[2] {list(available_currencies.keys())[1].upper()} ({list(available_currencies.values())[1].upper()})\n[3] {list(available_currencies.keys())[2].upper()} ({list(available_currencies.values())[2].upper()})\n\n"
             )
         )
-        if primary_currency == 1:
-            self.currencies.update({1: "eur"})
-        elif primary_currency == 2:
-            self.currencies.update({2: "usd"})
-        elif primary_currency == 3:
-            self.currencies.update({3: "gbp"})
-        add_another_currency = True
-        while add_another_currency:
-            add_another_currency = int(
-                input(
-                    "\nWould you like to add another currency to your account?\n\n[1] Yes\n[2] No\n\n"
-                )
-            )
-            if add_another_currency == 1:
-                # Found this way to compare two dictionaries here: https://stackoverflow.com/a/32815681
-                available_currencies = {
-                    currency_key: available_currencies[currency_key]
-                    for currency_key in set(available_currencies) - set(self.currencies)
-                }
-                # https://docs.python.org/3/library/stdtypes.html#mapping-types-dict & https://www.w3schools.com/python/python_iterators.asp
-                # currency_iterator = iter(available_currencies)
-                if not available_currencies:
-                    print(
-                        "\nYou already hold balances for the available currency options for your account."
-                    )
-                else:
-                    print(
-                        "\nWhich additional currency would you like to add to your account?"
-                    )
-                    for key, value in available_currencies.items():
-                        next(iter(available_currencies))
-                        print(f"[{key}] {value}")
-                        print(next(currency_iterator))
-                    additional_currency = int(input("\n"))
+        if chosen_currency == 1:
+            self.currency = list(available_currencies.values())[0]
+        elif chosen_currency == 2:
+            self.currency = list(available_currencies.values())[1]
+        elif chosen_currency == 3:
+            self.currency = list(available_currencies.values())[2]
 
-        self.balances = []
         self.user.bank_accounts.append(self)
         self.transactions = []
-        self.show_details()
 
-    # Show Balance Method
-    def show_details(self):
-        print(self.id)
-        return
+        print(
+            "\nNew account created successfully!\n\n _______________________________________________"
+        )
+        print("|\t\t\t\t\t\t|\n|\t\t\t\t\t\t|")
+        self.show_overview()
+        print("|\t\t\t\t\t\t|\n|\t\t\t\t\t\t|")
+        print(" ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾")
+
+    # Show bank account overview
+    def show_overview(self):
+        print(f"|\tAccount ID:\t{self.id}\t|")
+        # print(f"Account ID: {self.id}") rounding nicely with .2f:
+        # https://www.datacamp.com/tutorial/python-round-to-two-decimal-places
+        print(f"|\tBalance:\t{self.currency}{self.balance:.2f}\t\t|")
