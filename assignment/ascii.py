@@ -1,3 +1,7 @@
+# ASCII art generated here:
+# https://patorjk.com/software/taag
+
+
 class Ascii:
     def __init__(self):
         self.cubs = """
@@ -10,9 +14,9 @@ class Ascii:
 ⡏⢱ ⢀⣀ ⢀⣀ ⣇⡀ ⣇⡀ ⢀⡀ ⢀⣀ ⡀⣀ ⢀⣸
 ⠧⠜ ⠣⠼ ⠭⠕ ⠇⠸ ⠧⠜ ⠣⠜ ⠣⠼ ⠏  ⠣⠼"""
 
-        self.accounts = """
-⣎⣱ ⢀⣀ ⢀⣀ ⢀⡀ ⡀⢀ ⣀⡀ ⣰⡀ ⢀⣀
-⠇⠸ ⠣⠤ ⠣⠤ ⠣⠜ ⠣⠼ ⠇⠸ ⠘⠤ ⠭⠕"""
+        self.my_accounts = """
+⡷⢾ ⡀⢀   ⣎⣱ ⢀⣀ ⢀⣀ ⢀⡀ ⡀⢀ ⣀⡀ ⣰⡀ ⢀⣀
+⠇⠸ ⣑⡺   ⠇⠸ ⠣⠤ ⠣⠤ ⠣⠜ ⠣⠼ ⠇⠸ ⠘⠤ ⠭⠕"""
 
         self.account = """
 ⣎⣱ ⢀⣀ ⢀⣀ ⢀⡀ ⡀⢀ ⣀⡀ ⣰⡀
@@ -29,6 +33,10 @@ class Ascii:
         self.register = """
 ⣏⡱ ⢀⡀ ⢀⡀ ⠄ ⢀⣀ ⣰⡀ ⢀⡀ ⡀⣀
 ⠇⠱ ⠣⠭ ⣑⡺ ⠇ ⠭⠕ ⠘⠤ ⠣⠭ ⠏ """
+
+        self.see_you_soon = """
+⢎⡑ ⢀⡀ ⢀⡀   ⢇⢸ ⢀⡀ ⡀⢀   ⢎⡑ ⢀⡀ ⢀⡀ ⣀⡀ ⡇
+⠢⠜ ⠣⠭ ⠣⠭    ⠇ ⠣⠜ ⠣⠼   ⠢⠜ ⠣⠜ ⠣⠜ ⠇⠸ ⠅"""
 
         self.goodbye = """\
 ⡎⠑ ⢀⡀ ⢀⡀ ⢀⣸ ⣇⡀ ⡀⢀ ⢀⡀ ⡇

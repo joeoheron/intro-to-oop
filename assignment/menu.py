@@ -68,34 +68,47 @@ def display_authentication(users):
 
 # Display the main
 def display_dashboard(user, users):
-    print(f"{ascii.dashboard}\nHow can we help you today?")
-
     # Only display the menu options if there's an active user session
     while user.session:
-        # Use an input() for the user to choose an action they'd like to perform
-        main_menu_choice = int(
-            input(
-                "\n[1] Show My Bank Accounts\n[2] Open a New Bank Account\n[3] Log Out\n[4] Exit Program\n\n"
-            )
+        print(
+            "\n======================================================================"
         )
+        print(ascii.cubs)
+        print(ascii.dashboard)
+        print("[n] Open a New Bank Account\t[l] Log Out\t[x] Exit Program")
+        print(ascii.my_accounts)
+        print("Enter account's corner number to perform account-specific operations.")
+        user.show_bank_accounts()
+        main_menu_choice = input()
+
+        # Use an input() for the user to choose an action they'd like to perform
 
         # Check which choice the user made and proceed accordingly
-        if main_menu_choice == 1:
-            # If the user would like to see an overview of their accounts, call the user.show_bank_accounts() method
-            print(ascii.accounts)
-            user.show_bank_accounts()
-            print("\nIs there anything else that we can help you with today?")
-        elif main_menu_choice == 2:
-            # If the user would like to open a new bank account, instantiate the Bank_Account class with user passed in
-            Bank_Account(user)
-            print("\nIs there anything else that we can help you with today?")
-        elif main_menu_choice == 3:
-            # If the user wants to log out but not end the program, call the user.log_out() method
-            print(ascii.goodbye)
-            user.log_out()
-            display_authentication(users)
-        elif main_menu_choice == 4:
-            # If the user would like to exit the program, call the exit() function
-            exit()
+        if (
+            main_menu_choice.lower() == "n"
+            or main_menu_choice.lower() == "l"
+            or main_menu_choice.lower() == "x"
+        ):
+            if main_menu_choice.lower() == "n":
+                # If the user would like to open a new bank account, instantiate the Bank_Account class with user passed in
+                Bank_Account(user)
+            elif main_menu_choice.lower() == "l":
+                # If the user wants to log out but not end the program, call the user.log_out() method
+                print(f"{ascii.see_you_soon}")
+                user.log_out()
+                # display_authentication(users)
+            elif main_menu_choice.lower() == "x":
+                # If the user would like to exit the program, call the exit() function
+                print(f"\n{ascii.goodbye}\n")
+                exit()
+            else:
+                return
         else:
-            return
+            main_menu_choice = int(main_menu_choice)
+            user.bank_accounts[main_menu_choice - 1].perform_actions()
+
+    else:
+        print(
+            "\n======================================================================"
+        )
+        display_authentication(users)

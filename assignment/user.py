@@ -10,10 +10,10 @@ class User:
         self.id = format(random.randint(0, 9999999999999999), "016d")
 
         # The user's name, email, password and country are all inputted by them at time of registration
-        self.name = input("\nPlease type your name:\t\t\t")
-        self.email = input("Please type your email address:\t\t")
-        self.password = input("Please type a password:\t\t\t")
-        self.country = ""
+        self.name = input("\nPlease enter your name:\t\t\t")
+        self.email = input("Please enter your email address:\t")
+        self.password = input("Please enter a password:\t\t")
+        self.country = input("Please enter your country of residnce:\t")
 
         # The user should automatically be logged in upon registration
         self.session = True
@@ -33,17 +33,12 @@ class User:
     # Show the user's bank accounts
     def show_bank_accounts(self):
         # Set an index and increment through user's bank accounts, showing them an overview of each
-        account_index = 0
+        account_index = 1
         for bank_account in self.bank_accounts:
-            print(" _______________________________________________")
-            print(f"| {account_index + 1} |\t\t\t\t\t\t|\n|‾‾‾\t\t\t\t\t\t|")
-            bank_account.show_overview()
-            print("|\t\t\t\t\t\t|\n|\t\t\t\t\t\t|")
-            print(" ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾")
+            bank_account.show_overview(account_index)
             account_index += 1
 
-        chosen_account = int(input("\nWhich account would you like to work with?"))
-        
+        # chosen_account = int(input("Which account would you like to work with?\n\n"))
 
 
 # Define the log in function outside of the User class because if there's no user logged in, we
