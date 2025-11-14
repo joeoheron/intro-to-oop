@@ -14,7 +14,7 @@ if __name__ == "__main__":
 # TODO: Create a Bank_Account class with id, currencies and balances properties [x]
 # TODO: Create a new user and set balances as needed [x]
 # TODO: Deposit funds into the appropriate account []
-# TODO: Convert funds in an account and deduct fee where appropriate []
+# TODO: Transfer and convert funds and deduct fee where appropriate []
 # TODO: Withdraw funds from an account []
 # TODO: Include a minimum of 3 available currencies [x]
 # TODO: Use table or realtime currency info to convert currencies []

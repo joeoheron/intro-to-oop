@@ -1,6 +1,7 @@
 import random
 
 from ascii import Ascii
+from transaction import Transaction
 
 ascii = Ascii()
 
@@ -108,27 +109,66 @@ class Bank_Account:
     def show_detailed(self):
         print(ascii.account_details)
         print("[g] Go to Dashboard\t[l] Log Out\t[x] Exit Program\n")
+        print(" _____________________________________________________________________")
+        print(
+            f"| {self.nickname} |\t\t\t\t\t\t\t      |\n|‾‾‾‾‾‾‾‾‾‾‾‾‾\t\t\t\t\t\t\t      |"
+        )
+        print(f"| Account ID:\t{self.id}\t\t\t\t      |")
+        print(f"| Account Type:\t{self.type.capitalize()}\t\t\t\t\t      |")
+        # Printing the account balance, rounding nicely with .2f:
+        # https://www.datacamp.com/tutorial/python-round-to-two-decimal-places
+        if self.balance < 1000:
+            print(f"| Balance:\t{self.currency}{self.balance:.2f}\t\t\t\t\t\t      |")
+        else:
+            print(f"| Balance:\t{self.currency}{self.balance:.2f}\t\t\t\t\t      |")
+        print("|\t\t\t\t\t\t\t\t      |")
+        print("|     [d] Deposit           [w] Withdraw           [t] Transfer       |")
+        print("|‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|")
+        print("| Date\t     | Description\t\t   |  Amount  | Balance After |")
+        print("|____________|_____________________________|__________|_______________|")
 
-        account_menu_choice = input()
+        if self.transactions:
+            for transaction in self.transactions:
+                print(
+                    f"|{transaction.timestamp.strftime(' %d.%m.%Y ')}| {transaction.type.capitalize()} | {self.currency}{transaction.amount} | {self.currency}{transaction.balance_after} |"
+                )
+
+        account_menu_choice = input("\n")
 
         # Check which choice the user made and proceed accordingly
-        if (
-            account_menu_choice.lower() == "g"
-            or account_menu_choice.lower() == "l"
-            or account_menu_choice.lower() == "x"
-        ):
-            if account_menu_choice.lower() == "g":
-                # If the user would like to open a new bank account, instantiate the Bank_Account class with user passed in
-                return
-            elif account_menu_choice.lower() == "l":
-                # If the user wants to log out but not end the program, call the user.log_out() method
-                print(f"\n{ascii.see_you_soon}")
-                self.user.log_out()
-            elif account_menu_choice.lower() == "x":
-                # If the user would like to exit the program, call the exit() function
-                print(f"\n{ascii.goodbye}\n")
-                exit()
-            else:
-                return
+        if account_menu_choice.lower() == "g":
+            # If the user would like to open a new bank account, instantiate the Bank_Account class with user passed in
+            return
+        elif account_menu_choice.lower() == "l":
+            # If the user wants to log out but not end the program, call the user.log_out() method
+            print(f"\n{ascii.see_you_soon}")
+            self.user.log_out()
+            return
+        elif account_menu_choice.lower() == "x":
+            # If the user would like to exit the program, call the exit() function
+            print(f"\n{ascii.goodbye}\n")
+            raise SystemExit
+        elif account_menu_choice.lower() == "d":
+            print(ascii.deposit)
+            print("How much would you like to deposit into your account?")
+            Transaction(self).deposit_funds()
+
+        elif account_menu_choice.lower() == "w":
+            print(ascii.withdraw)
+            print("How much would you like to withdraw from your account?")
+            Transaction(self).withdraw_funds()
+        elif account_menu_choice.lower() == "t":
+            print(ascii.transfer)
+            print("Which account would you like to transfer money into?")
+            account_index = 1
+            for bank_account in self.user.bank_accounts:
+                if bank_account.id != self.id:
+                    bank_account.show_overview(account_index)
+                    account_index += 1
+
+            chosen_bank_account = int(input())
+
+            Transaction(self).transfer_funds(chosen_bank_account - 1)
+
         else:
-            account_menu_choice = int(account_menu_choice)
+            return

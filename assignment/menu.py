@@ -79,9 +79,8 @@ def display_authentication(users):
 
                     break
 
-            # else:
-            #     break
-
+        except SystemExit:
+            break
         except:
             pass
 
@@ -102,7 +101,6 @@ def display_dashboard(user, users):
         print("Enter account's corner number to perform account-specific operations.")
         user.show_bank_accounts()
 
-        # while True:
         try:
             # Use an input() for the user to choose an action they'd like to perform
             main_menu_choice = input()
@@ -112,32 +110,36 @@ def display_dashboard(user, users):
                 or main_menu_choice.lower() == "l"
                 or main_menu_choice.lower() == "x"
             ):
+                # If the user would like to open a new bank account, instantiate the Bank_Account class with user passed in
                 if main_menu_choice.lower() == "n":
-                    # If the user would like to open a new bank account, instantiate the Bank_Account class with user passed in
                     Bank_Account(user)
-                    break
+                    continue
+
+                # If the user wants to log out but not end the program, call the user.log_out() method
                 elif main_menu_choice.lower() == "l":
-                    # If the user wants to log out but not end the program, call the user.log_out() method
                     print(f"{ascii.see_you_soon}")
                     user.log_out()
-                    break
+                    continue
+
+                # If the user would like to exit the program, raise a SystemExit exception
                 elif main_menu_choice.lower() == "x":
-                    # If the user would like to exit the program, call the exit() function
                     print(f"\n{ascii.goodbye}\n")
                     raise SystemExit
             else:
                 main_menu_choice = int(main_menu_choice)
                 user.bank_accounts[main_menu_choice - 1].show_detailed()
-                break
+                continue
+
         except SystemExit:
             break
+
         except:
             pass
 
         print("\nInvalid choice. Please try again.\n")
 
-    # else:
-    #     print(
-    #         "\n======================================================================"
-    #     )
-    #     display_authentication(users)
+    else:
+        print(
+            "\n======================================================================"
+        )
+        display_authentication(users)
