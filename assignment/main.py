@@ -13,14 +13,15 @@ if __name__ == "__main__":
 # TODO: Create a User class with name, email and country properties [x]
 # TODO: Create a Bank_Account class with id, currencies and balances properties [x]
 # TODO: Create a new user and set balances as needed [x]
-# TODO: Deposit funds into the appropriate account []
+# TODO: Deposit funds into the appropriate account [x]
 # TODO: Transfer and convert funds and deduct fee where appropriate []
-# TODO: Withdraw funds from an account []
+# TODO: Withdraw funds from an account [x]
 # TODO: Include a minimum of 3 available currencies [x]
-# TODO: Use table or realtime currency info to convert currencies []
+# TODO: Use table or realtime currency info to convert currencies [x]
 # TODO: Project is well-commented []
 # TODO: Project free of errors and exceptions handled gracefully []
 # TODO: Match indexes between currencies and balances to maintain a link [x]
-# TODO: Add advanced functionality and demonstrate coding skills
+# TODO: Add advanced functionality and demonstrate coding skills [x]
 # authentication flow, multi-user setup, multiple accounts per user,
 # multiple balances per account, multiple transactions per balance, ascii for looks
+# datetime stamps for transactions, fake country code + random number for bank account id

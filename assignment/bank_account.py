@@ -1,4 +1,5 @@
 import random
+from hmac import trans_36
 
 from ascii import Ascii
 from transaction import Transaction
@@ -81,7 +82,7 @@ class Bank_Account:
         self.user.bank_accounts.append(self)
         self.transactions = []
 
-        print("\nNew account created successfully!\n")
+        print("\nNew account created successfully!")
         self.show_detailed()
 
     # Show bank account overview
@@ -108,35 +109,57 @@ class Bank_Account:
 
     def show_detailed(self):
         print(ascii.account_details)
-        print("[g] Go to Dashboard\t[l] Log Out\t[x] Exit Program\n")
-        print(" _____________________________________________________________________")
+        print("[r] Return to Dashboard\t  [l] Log Out\t[x] Exit Program\n")
+        print(" ____________________________________________________________________")
         print(
-            f"| {self.nickname} |\t\t\t\t\t\t\t      |\n|‾‾‾‾‾‾‾‾‾‾‾‾‾\t\t\t\t\t\t\t      |"
+            f"| {self.nickname} |\t     [d] Deposit    [w] Withdraw    [t] Transfer     |\n|‾‾‾‾‾‾‾‾‾‾‾‾‾\t\t\t\t\t\t\t     |"
         )
-        print(f"| Account ID:\t{self.id}\t\t\t\t      |")
-        print(f"| Account Type:\t{self.type.capitalize()}\t\t\t\t\t      |")
+        print(f"| Account ID:\t\t{self.id}\t\t\t     |")
+        print(f"| Account Type:\t\t{self.type.capitalize()}\t\t\t\t     |")
         # Printing the account balance, rounding nicely with .2f:
         # https://www.datacamp.com/tutorial/python-round-to-two-decimal-places
         if self.balance < 1000:
-            print(f"| Balance:\t{self.currency}{self.balance:.2f}\t\t\t\t\t\t      |")
+            print(
+                f"| Current Balance:\t{self.currency}{self.balance:.2f}\t\t\t\t\t     |"
+            )
         else:
-            print(f"| Balance:\t{self.currency}{self.balance:.2f}\t\t\t\t\t      |")
-        print("|\t\t\t\t\t\t\t\t      |")
-        print("|     [d] Deposit           [w] Withdraw           [t] Transfer       |")
-        print("|‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|")
-        print("| Date\t     | Description\t\t   |  Amount  | Balance After |")
-        print("|____________|_____________________________|__________|_______________|")
+            print(
+                f"| Current Balance:\t{self.currency}{self.balance:.2f}\t\t\t\t     |"
+            )
+        print("|\t\t\t\t\t\t\t\t     |")
+        # print("|     [d] Deposit           [w] Withdraw          [t] Transfer       |")
+        print("|               |               |               |                    |")
+        print("| Date\t\t| Description\t| Amount\t| Balance After\t\t|")
+        print(" ---------------|---------------|---------------|--------------------")
 
-        if self.transactions:
-            for transaction in self.transactions:
+        if not self.transactions:
+            print("|\t\t\t\t\t\t\t\t     |")
+            print("|\t\t\tNo account activity yet.\t\t     |")
+            print("|\t\t\t\t\t\t\t\t     |")
+            print(
+                " ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾"
+            )
+        else:
+            # Reversing the order of transactions to display as expected in account statements:
+            # https://stackoverflow.com/a/3940144
+            for transaction in reversed(self.transactions):
+                # Formatting time as instructed by Python docs:
+                # https://docs.python.org/3/library/datetime.html#format-codes
                 print(
-                    f"|{transaction.timestamp.strftime(' %d.%m.%Y ')}| {transaction.type.capitalize()} | {self.currency}{transaction.amount} | {self.currency}{transaction.balance_after} |"
+                    f" {transaction.timestamp.strftime(' %b %d ')}\t| {transaction.type.capitalize()}\t| {self.currency}{transaction.amount:.2f}\t| {self.currency}{transaction.balance_after:.2f}"
                 )
+                print(
+                    " ---------------|---------------|---------------|--------------------"
+                )
+            print("|\t\t\tEnd of account activity.\t\t     |")
+            print(
+                " --------------------------------------------------------------------"
+            )
 
         account_menu_choice = input("\n")
 
         # Check which choice the user made and proceed accordingly
-        if account_menu_choice.lower() == "g":
+        if account_menu_choice.lower() == "r":
             # If the user would like to open a new bank account, instantiate the Bank_Account class with user passed in
             return
         elif account_menu_choice.lower() == "l":
@@ -150,25 +173,35 @@ class Bank_Account:
             raise SystemExit
         elif account_menu_choice.lower() == "d":
             print(ascii.deposit)
-            print("How much would you like to deposit into your account?")
+            print("How much would you like to deposit into your account?\n")
             Transaction(self).deposit_funds()
 
         elif account_menu_choice.lower() == "w":
             print(ascii.withdraw)
-            print("How much would you like to withdraw from your account?")
+            print("How much would you like to withdraw from your account?\n")
             Transaction(self).withdraw_funds()
+
         elif account_menu_choice.lower() == "t":
             print(ascii.transfer)
-            print("Which account would you like to transfer money into?")
+            print("Which account would you like to transfer money into?\n")
             account_index = 1
+            transferable_accounts = []
             for bank_account in self.user.bank_accounts:
                 if bank_account.id != self.id:
                     bank_account.show_overview(account_index)
+                    transferable_accounts.append(bank_account)
                     account_index += 1
 
-            chosen_bank_account = int(input())
+            chosen_bank_account = transferable_accounts[int(input()) - 1]
 
-            Transaction(self).transfer_funds(chosen_bank_account - 1)
+            outward_transfer = Transaction(self).transfer_funds(chosen_bank_account)
+            inward_transfer = Transaction(chosen_bank_account)
+            inward_transfer.amount = outward_transfer
+            inward_transfer.type = "transfer"
+            inward_transfer.balance_after = (
+                chosen_bank_account.balance + inward_transfer.amount
+            )
+            chosen_bank_account.balance += inward_transfer.amount
 
         else:
             return

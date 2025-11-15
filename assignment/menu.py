@@ -1,5 +1,3 @@
-import sys
-
 from ascii import Ascii
 from bank_account import Bank_Account
 from user import User, log_in
@@ -25,7 +23,7 @@ def display_authentication(users):
             if auth_choice == 1:
                 if not users:
                     print(
-                        "\nUh oh! We don't actually have any users to log you in yet!\nPlease select option 2 in order to register an account with us.\n"
+                        "\nUh oh! We don't actually have any users to log you in yet!\nPlease select option 2 to become our first user.\n"
                     )
                     continue
 

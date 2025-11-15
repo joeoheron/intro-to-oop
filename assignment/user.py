@@ -38,8 +38,6 @@ class User:
             bank_account.show_overview(account_index)
             account_index += 1
 
-        # chosen_account = int(input("Which account would you like to work with?\n\n"))
-
 
 # Define the log in function outside of the User class because if there's no user logged in, we
 # wouldn't be able to work with a user instance. Pass in email, password and list of users
