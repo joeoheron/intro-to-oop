@@ -98,7 +98,7 @@ class Transaction:
                 target_amount / conversion_rate[target_account.currency]
             )
 
-            # Convert amount deducted from transfering account in its own currency
+            # Convert amount deducted from transferring account in its own currency
             deducted_amount = (
                 target_amount_in_euro * conversion_rate[self.bank_account.currency]
             )
@@ -155,7 +155,7 @@ class Transaction:
                 except:
                     pass
 
-        # If the currencies are the same, check that the transfering account has sufficient
+        # If the currencies are the same, check that the transferring account has sufficient
         # balance to complete transfer and process transfer accordingly.
         else:
             while target_amount > self.bank_account.balance:
