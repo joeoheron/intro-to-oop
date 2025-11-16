@@ -42,64 +42,83 @@ class Transaction:
         self.balance_after = self.bank_account.balance
 
     # Convert Funds Method
-    def transfer_funds(self, to_account):
-        conversion_rate = {"€": 1, "$": 1.2, "£": 0.8}
+    def transfer_funds(self, target_account):
+        conversion_rate = {"€": 1, "$": 1.1, "£": 0.9}
+        fee_rate = ""
+        conversion_fee = 0
 
         self.type = "transfer"
 
-        chosen_amount = float(
+        target_amount = float(
             input(
-                f"\nHow much {to_account.currency} would you like to transfer into this account?\n\n{to_account.currency}"
+                f"\nHow much {target_account.currency} would you like to transfer into this account?\n\n{target_account.currency}"
             )
         )
 
         # Currency conversion flow begins
-        if self.bank_account.currency != to_account.currency:
-            chosen_amount_in_euro = chosen_amount / conversion_rate[to_account.currency]
-
-            print(f"Chosen amount in euro: {chosen_amount_in_euro}")
+        while self.bank_account.currency != target_account.currency:
+            target_amount_in_euro = (
+                target_amount / conversion_rate[target_account.currency]
+            )
 
             available_balance_in_euro = (
                 self.bank_account.balance / conversion_rate[self.bank_account.currency]
             )
 
-            print(f"Available balance in euro: {available_balance_in_euro}")
+            deducted_amount = (
+                target_amount_in_euro * conversion_rate[self.bank_account.currency]
+            )
 
-            while chosen_amount_in_euro >= available_balance_in_euro:
-                chosen_amount = round(
-                    float(
-                        input(
-                            f"\nInsufficient funds available. Please enter an amount that your account can cover.\n\n{to_account.currency}"
-                        )
-                    ),
-                    2,
+            if deducted_amount < 100:
+                fee_rate = "1%"
+                conversion_fee = deducted_amount * 0.01
+            elif deducted_amount >= 100 and deducted_amount < 500:
+                fee_rate = "2%"
+                conversion_fee = deducted_amount * 0.02
+            else:
+                fee_rate = "3%"
+                conversion_fee = deducted_amount * 0.03
+
+            deducted_amount += conversion_fee
+
+            if deducted_amount >= available_balance_in_euro:
+                target_amount = float(
+                    input(
+                        f"\nInsufficient funds available. Please enter an amount that your account can cover.\n\n{target_account.currency}"
+                    )
                 )
 
-                chosen_amount_in_euro = (
-                    chosen_amount * conversion_rate[to_account.currency]
+                continue
+
+            proceed_choice = int(
+                input(
+                    f"A {fee_rate} currency conversion fee of {self.bank_account.currency}{'{:,.2f}'.format(conversion_fee)} will be applied to this transfer.\nA total of {self.bank_account.currency}{'{:,.2f}'.format(deducted_amount)} would be charged to your account.\n\nWould you like to proceed?\n\n[1] Yes\n[2] No\n\n"
                 )
+            )
 
-            self.amount = round(-chosen_amount_in_euro, 2)
+            if proceed_choice == 1:
+                self.amount = round(-deducted_amount, 2)
 
-            self.bank_account.balance += self.amount
-            self.balance_after = round(self.bank_account.balance, 2)
+                self.bank_account.balance += self.amount
+                self.balance_after = round(self.bank_account.balance, 2)
 
-            return chosen_amount
+                return target_amount
+
+            else:
+                print("Cancelling transaction...")
+                break
 
         else:
-            while chosen_amount > self.bank_account.balance:
-                chosen_amount = round(
-                    float(
-                        input(
-                            f"\nInsufficient funds available. Please enter an amount that your account can cover.\n\n{self.bank_account.currency}"
-                        )
-                    ),
-                    2,
+            while target_amount > self.bank_account.balance:
+                target_amount = float(
+                    input(
+                        f"\nInsufficient funds available. Please enter an amount that your account can cover.\n\n{self.bank_account.currency}"
+                    )
                 )
 
-            self.amount = -chosen_amount
+            self.amount = -target_amount
 
             self.bank_account.balance += self.amount
             self.balance_after = round(self.bank_account.balance, 2)
 
-            return chosen_amount
+            return target_amount
