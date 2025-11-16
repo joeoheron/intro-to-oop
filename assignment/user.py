@@ -32,11 +32,21 @@ class User:
 
     # Show the user's bank accounts
     def show_bank_accounts(self):
-        # Set an index and increment through user's bank accounts, showing them an overview of each
-        account_index = 1
-        for bank_account in self.bank_accounts:
-            bank_account.show_overview(account_index)
-            account_index += 1
+        # Display bank accounts if the user has any
+        if self.bank_accounts:
+            # Set an index and increment through user's bank accounts, showing them an overview of each
+            account_index = 1
+            for bank_account in self.bank_accounts:
+                bank_account.show_overview(account_index)
+                account_index += 1
+
+        # Display that there are no accounts yet if the user doesn't have any
+        else:
+            print("\n      _______________________________________________________")
+            print("     |\t\t\t\t\t\t\t     |")
+            print("     |\t\t\tNo open accounts yet.\t\t     |")
+            print("     |\t\t\t\t\t\t\t     |")
+            print("      ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾")
 
 
 # Define the log in function outside of the User class because if there's no user logged in, we

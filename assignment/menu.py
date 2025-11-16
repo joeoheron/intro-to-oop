@@ -39,7 +39,6 @@ def display_authentication(users):
 
                     # Display the main dashboard to the user, passing in the logged in user and the users list
                     display_dashboard(user, users)
-
                     break
 
             # If the user chooses to register a new account, start the flow
@@ -68,21 +67,22 @@ def display_authentication(users):
 
                     # Send the user to the dashboard when done creating a bank account
                     display_dashboard(new_user, users)
-
                     break
 
                 # If the user does not want to open an account yet, send them straight to the dashboard
                 elif open_bank_account_choice == 2:
                     display_dashboard(new_user, users)
-
                     break
 
+        # Close the program when we get here
         except SystemExit:
             break
+
+        # Provide a generic error and retry when we get here
         except:
             pass
 
-        print("Invalid choice. Please try again.")
+        print("Invalid choice. Please try another option.")
 
 
 # Display the main
@@ -128,14 +128,17 @@ def display_dashboard(user, users):
                 user.bank_accounts[main_menu_choice - 1].show_detailed()
                 continue
 
+        # Close the program when we get here
         except SystemExit:
             break
 
+        # Provide a generic error and retry when we get here
         except:
             pass
 
-        print("\nInvalid choice. Please try again.\n")
+        print("\nInvalid choice. Please try another option.\n")
 
+    # When user.session is false, nobody's logged in, so we go back to the auth menu
     else:
         print(
             "\n======================================================================"
